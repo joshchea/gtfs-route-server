@@ -385,7 +385,7 @@ def GetRouteDetail(o, d): #, validtrips, getstopid):
     #return resultstr
 
 
-def GetRouteTime(o, d, validtrips, getstopid, G=G):
+def GetRouteTime(o, d, validtrips, getstopid):
     path = nx.dijkstra_path(G,o,d, weight='time')
     #print path
     tmp = path[0].split('^')
