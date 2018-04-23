@@ -18,5 +18,5 @@ be used to perform large scale timetable based route searches on GTFS data.
 Depends on <span class=SpellE>NetworkX</span>
 (http://networkx.github.io/documentation/networkx-1.9.1/index.html) for
 shortest path searches in addition to other standard python modules, the search
-graph in generated is generic so it can be used with any other graph search
-library if desired.</p>
+graph is generic so it can be used with any other graph search
+library if desired. For a discussion about two types of dynamic graphs please see here: http://i11www.iti.kit.edu/extra/amore/files/ressemoct2002/Zaroliagis.pdf </p>
